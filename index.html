@@ -1,0 +1,583 @@
+<html>
+
+<head>
+    <title>Basic</title>
+    <link href="stylesheet/style.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script>
+        AOS.init();
+    </script>
+    <header>
+        <div class="left-menu">
+            <ul>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Help</li>
+                <li>FAQs</li>
+            </ul>
+        </div>
+        <div class="right-menu">
+            <ul>
+                <li>My Account &#9662;
+                    <ul>
+                        <li>Sign in</li>
+                        <li>Sign up</li>
+                    </ul>
+                </li>
+                <li>USD &#9662;
+                    <ul>
+                        <li>EUR</li>
+                        <li>GBP</li>
+                        <li>CAD</li>
+                    </ul>
+                </li>
+                <li>EN &#9662;
+                    <ul>
+                        <li>FR</li>
+                        <li>AR</li>
+                        <li>UR</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="search-logo-bar">
+                <div class="logo">
+                    <div class="logo-text">
+                        <img src="images/logo.png" alt="logo image" />
+                    </div>
+                </div>
+                <div class="search-input">
+                    <input type="text" placeholder="Search for products" />
+                    <i class='bx bx-search'></i>
+
+                </div>
+                <div class="customer-service">
+                    <h3 style="color: rgb(171, 163, 163);">Customer Service</h3>
+                    <h2>+123 456 789</h2>
+                </div>
+            </div>
+            <div class="nav-bar">
+                <div class="category">
+                    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='bx bx-menu'></i> Categories
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9662</h3>
+                    <ul>
+                        <li>Dresses</li>
+                        <li>Jeans</li>
+                        <li>shirt</li>
+                        <li>Jacket</li>
+                        <li>Shoes</li>
+                        <li>Swimwear</li>
+                        <li>Sportswear</li>
+                    </ul>
+                </div>
+                <div class="menues">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li>Shop</li>
+                        <li>Shop Detail</li>
+                        <li>Pages &#9662
+                            <ul>
+                                <li>Shopping Cart</li>
+                                <li>Checkout</li>
+                            </ul>
+                        </li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="shopping-cart">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class='bx bxs-heart'></i>
+                    <span>0</span>
+
+                    <i class='bx bx-cart'></i>
+                    <span>0</span>
+                </div>
+            </div>
+
+            <div class="main-frame">
+                <div class="left-banner">
+                    <h1 data-aos="fade-down" data-aos-duration="1000">Men Fashion</h1>
+                    <p data-aos="zoom-in" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Iusto omnis quam at voluptas dolores
+                        quibusdam, nesciunt molestiae ipsa, laborum ut repudiandae inventore nobis magni suscipit.</p>
+                    <button data-aos="fade-up" data-aos-duration="1000">Shop Now</button>
+                </div>
+                <div class="right-banner">
+                    <div class="parent-banner">
+                        <h3 style="margin-left: 20px;">SAVE 20%</h3>
+                        <h1 style="margin-top: 25px;">Special Offer</h1>
+                        <button>Shop Now</button>
+                        <div class="sub-banner top-image">
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <div class="parent-banner">
+                        <h3 style="margin-left: 20px; margin-top: 280px;">SAVE 20%</h3>
+                        <h1 style="margin-top: 305px;">Special Offer</h1>
+                        <button style="margin-top: 290px;">Shop Now</button>
+                        <div class="sub-banner bottom-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br /><br>
+            <div class="services">
+
+                <div>
+                    <h1><i class='bx bx-check'></i> Quality Product</h1>
+                </div>
+                <div>
+                    <h1><i class='bx bxs-truck'></i> Free Shipping</h1>
+                </div>
+                <div>
+                    <h1><i class='bx bx-arrow-back'></i> 14-Day Return</h1>
+                </div>
+                <div>
+                    <h1><i class='bx bxs-phone-call'></i> 24/7 Support</h1>
+                </div>
+            </div>
+        </section>
+        <br><br><br>
+        <!--Categories section starts-->
+        <h1 style="margin-left:20px ;">
+            CATEGORIES-----------------------------------------------------------------------------------------
+        </h1>
+        <section id="categories">
+
+            <div class="categories">
+
+                <div class="categories-flex">
+                    <div class="category-child">
+                        <div class="child-image" style="background-image: url(images/cat-1.jpg);"></div>
+                        <div class="child-text">
+                            <h3>Category Name</h3>
+                            <p>100 Product</p>
+                        </div>
+                    </div>
+                    <div class="category-child">
+                        <div class="child-image" style="background-image: url(images/cat-2.jpg);"></div>
+                        <div class="child-text">
+                            <h3>Category Name</h3>
+                            <p>100 Product</p>
+                        </div>
+                    </div>
+
+                    <div class="category-child">
+                        <div class="child-image" style="background-image: url(images/cat-3.jpg);"></div>
+                        <div class="child-text">
+                            <h3>Category Name</h3>
+                            <p>100 Product</p>
+                        </div>
+                    </div>
+                    <div class="category-child">
+                        <div class="child-image" style="background-image: url(images/cat-4.jpg);"></div>
+                        <div class="child-text">
+                            <h3>Category Name</h3>
+                            <p>100 Product</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories-flex">
+                    <div class="category-child">
+                        <div class="child-image" style="background-image: url(images/cat-4.jpg);"></div>
+                        <div class="child-text">
+                            <h3>Category Name</h3>
+                            <p>100 Product</p>
+                        </div>
+                    </div>
+                    <div class="category-child">
+                        <div class="child-image" style="background-image: url(images/cat-3.jpg);"></div>
+                        <div class="child-text">
+                            <h3>Category Name</h3>
+                            <p>100 Product</p>
+                        </div>
+                    </div>
+
+                    <div class="category-child">
+                        <div class="child-image" style="background-image: url(images/cat-2.jpg);"></div>
+                        <div class="child-text">
+                            <h3>Category Name</h3>
+                            <p>100 Product</p>
+                        </div>
+                    </div>
+                    <div class="category-child">
+                        <div class="child-image" style="background-image: url(images/cat-1.jpg);"></div>
+                        <div class="child-text">
+                            <h3>Category Name</h3>
+                            <p>100 Product</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories-flex">
+                    <div class="category-child">
+                        <div class="child-image" style="background-image: url(images/cat-3.jpg);"></div>
+                        <div class="child-text">
+                            <h3>Category Name</h3>
+                            <p>100 Product</p>
+                        </div>
+                    </div>
+                    <div class="category-child">
+                        <div class="child-image" style="background-image: url(images/cat-1.jpg);"></div>
+                        <div class="child-text">
+                            <h3>Category Name</h3>
+                            <p>100 Product</p>
+                        </div>
+                    </div>
+
+                    <div class="category-child">
+                        <div class="child-image" style="background-image: url(images/cat-4.jpg);"></div>
+                        <div class="child-text">
+                            <h3>Category Name</h3>
+                            <p>100 Product</p>
+                        </div>
+                    </div>
+                    <div class="category-child">
+                        <div class="child-image" style="background-image: url(images/cat-2.jpg);"></div>
+                        <div class="child-text">
+                            <h3>Category Name</h3>
+                            <p>100 Product</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <br><br><br>
+        <h1 style="margin-left:20px ; color: rgb(33, 31, 31);">
+            FEATURE
+            PRODUCTS---------------------------------------------------------------------------------
+        </h1>
+        <br><br><br>
+        <section id="feature-products">
+            <div class="feature-products">
+                <div class="feature-child">
+                    <div class="options">
+                        <span><i class='bx bxs-cart-alt'></i></span>
+                        <span><i class='bx bx-heart'></i></span>
+                        <span><i class='bx bx-left-arrow-circle'></i></span>
+                        <span><i class='bx bx-search-alt-2'></i></span>
+                    </div>
+                    <div class="feature-image" style="background-image: url(images/product-1.jpg);"> </div>
+                    <div class="feature-text">
+                        <p>Product name goes here</p>
+                        <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                        <p>*****(99)</p>
+                    </div>
+                </div>
+                <div class="feature-child">
+                    <div class="options">
+                        <span><i class='bx bxs-cart-alt'></i></span>
+                        <span><i class='bx bx-heart'></i></span>
+                        <span><i class='bx bx-left-arrow-circle'></i></span>
+                        <span><i class='bx bx-search-alt-2'></i></span>
+                    </div>
+                    <div class="feature-image" style="background-image: url(images/product-2.jpg);"></div>
+                    <div class="feature-text">
+                        <p>Product name goes here</p>
+                        <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                        <p>*****(99)</p>
+                    </div>
+                </div>
+                <div class="feature-child">
+                    <div class="options">
+                        <span><i class='bx bxs-cart-alt'></i></span>
+                        <span><i class='bx bx-heart'></i></span>
+                        <span><i class='bx bx-left-arrow-circle'></i></span>
+                        <span><i class='bx bx-search-alt-2'></i></span>
+                    </div>
+                    <div class="feature-image" style="background-image: url(images/product-3.jpg);"></div>
+                    <div class="feature-text">
+                        <p>Product name goes here</p>
+                        <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                        <p>*****(99)</p>
+                    </div>
+                </div>
+                <div class="feature-child">
+                    <div class="options">
+                        <span><i class='bx bxs-cart-alt'></i></span>
+                        <span><i class='bx bx-heart'></i></span>
+                        <span><i class='bx bx-left-arrow-circle'></i></span>
+                        <span><i class='bx bx-search-alt-2'></i></span>
+                    </div>
+                    <div class="feature-image" style="background-image: url(images/product-4.jpg);"></div>
+                    <div class="feature-text">
+                        <p>Product name goes here</p>
+                        <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                        <p>*****(99)</p>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="feature-products">
+                <div class="feature-child">
+                    <div class="options">
+                        <span><i class='bx bxs-cart-alt'></i></span>
+                        <span><i class='bx bx-heart'></i></span>
+                        <span><i class='bx bx-left-arrow-circle'></i></span>
+                        <span><i class='bx bx-search-alt-2'></i></span>
+                    </div>
+                    <div class="feature-image" style="background-image: url(images/product-5.jpg);"></div>
+                    <div class="feature-text">
+                        <p>Product name goes here</p>
+                        <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                        <p>*****(99)</p>
+                    </div>
+                </div>
+                <div class="feature-child">
+                    <div class="options">
+                        <span><i class='bx bxs-cart-alt'></i></span>
+                        <span><i class='bx bx-heart'></i></span>
+                        <span><i class='bx bx-left-arrow-circle'></i></span>
+                        <span><i class='bx bx-search-alt-2'></i></span>
+                    </div>
+                    <div class="feature-image" style="background-image: url(images/product-6.jpg);"></div>
+                    <div class="feature-text">
+                        <p>Product name goes here</p>
+                        <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                        <p>*****(99)</p>
+                    </div>
+                </div>
+                <div class="feature-child">
+                    <div class="options">
+                        <span><i class='bx bxs-cart-alt'></i></span>
+                        <span><i class='bx bx-heart'></i></span>
+                        <span><i class='bx bx-left-arrow-circle'></i></span>
+                        <span><i class='bx bx-search-alt-2'></i></span>
+                    </div>
+                    <div class="feature-image" style="background-image: url(images/product-7.jpg);"></div>
+                    <div class="feature-text">
+                        <p>Product name goes here</p>
+                        <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                        <p>*****(99)</p>
+                    </div>
+                </div>
+                <div class="feature-child">
+                    <div class="options">
+                        <span><i class='bx bxs-cart-alt'></i></span>
+                        <span><i class='bx bx-heart'></i></span>
+                        <span><i class='bx bx-left-arrow-circle'></i></span>
+                        <span><i class='bx bx-search-alt-2'></i></span>
+                    </div>
+                    <div class="feature-image" style="background-image: url(images/product-8.jpg);"></div>
+                    <div class="feature-text">
+                        <p>Product name goes here</p>
+                        <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                        <p>*****(99)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Flex banner start -->
+        <br><br><br>
+        <section>
+            <div class="big-banner">
+                <div class="big-banner-child">
+                    <h2 style="margin-left: 28px;">SAVE 20%</h2>
+                    <h1 style="margin-top: 30px; font-size: 30px;">Special Offer</h1>
+                    <button>Shop Now</button>
+                    <div class="big-banner-left"></div>
+                </div>
+                <div class="big-banner-child">
+                    <h2 style="margin-left: 28px;">SAVE 20%</h2>
+                    <h1 style="margin-top: 30px; font-size: 30px;">Special Offer</h1>
+                    <button>Shop Now</button>
+                    <div class="big-banner-right"></div>
+                </div>
+            </div>
+        </section>
+
+        <br><br><br>
+        <h1 style="margin-left:20px ;">RECENT
+            PRODUCTS----------------------------------------------------------------------------------
+        </h1>
+        <br><br><br>
+        <!--Recent products strat-->
+        <div class="feature-products">
+            <div class="feature-child">
+                <div class="options">
+                    <span><i class='bx bxs-cart-alt'></i></span>
+                    <span><i class='bx bx-heart'></i></span>
+                    <span><i class='bx bx-left-arrow-circle'></i></span>
+                    <span><i class='bx bx-search-alt-2'></i></span>
+                </div>
+                <div class="feature-image" style="background-image: url(images/product-1.jpg);"> </div>
+                <div class="feature-text">
+                    <p>Product name goes here</p>
+                    <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                    <p>*****(99)</p>
+                </div>
+            </div>
+            <div class="feature-child">
+                <div class="options">
+                    <span><i class='bx bxs-cart-alt'></i></span>
+                    <span><i class='bx bx-heart'></i></span>
+                    <span><i class='bx bx-left-arrow-circle'></i></span>
+                    <span><i class='bx bx-search-alt-2'></i></span>
+                </div>
+                <div class="feature-image" style="background-image: url(images/product-2.jpg);"></div>
+                <div class="feature-text">
+                    <p>Product name goes here</p>
+                    <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                    <p>*****(99)</p>
+                </div>
+            </div>
+            <div class="feature-child">
+                <div class="options">
+                    <span><i class='bx bxs-cart-alt'></i></span>
+                    <span><i class='bx bx-heart'></i></span>
+                    <span><i class='bx bx-left-arrow-circle'></i></span>
+                    <span><i class='bx bx-search-alt-2'></i></span>
+                </div>
+                <div class="feature-image" style="background-image: url(images/product-3.jpg);"></div>
+                <div class="feature-text">
+                    <p>Product name goes here</p>
+                    <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                    <p>*****(99)</p>
+                </div>
+            </div>
+            <div class="feature-child">
+                <div class="options">
+                    <span><i class='bx bxs-cart-alt'></i></span>
+                    <span><i class='bx bx-heart'></i></span>
+                    <span><i class='bx bx-left-arrow-circle'></i></span>
+                    <span><i class='bx bx-search-alt-2'></i></span>
+                </div>
+                <div class="feature-image" style="background-image: url(images/product-4.jpg);"></div>
+                <div class="feature-text">
+                    <p>Product name goes here</p>
+                    <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                    <p>*****(99)</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="feature-products">
+            <div class="feature-child">
+                <div class="options">
+                    <span><i class='bx bxs-cart-alt'></i></span>
+                    <span><i class='bx bx-heart'></i></span>
+                    <span><i class='bx bx-left-arrow-circle'></i></span>
+                    <span><i class='bx bx-search-alt-2'></i></span>
+                </div>
+                <div class="feature-image" style="background-image: url(images/product-5.jpg);"></div>
+                <div class="feature-text">
+                    <p>Product name goes here</p>
+                    <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                    <p>*****(99)</p>
+                </div>
+            </div>
+            <div class="feature-child">
+                <div class="options">
+                    <span><i class='bx bxs-cart-alt'></i></span>
+                    <span><i class='bx bx-heart'></i></span>
+                    <span><i class='bx bx-left-arrow-circle'></i></span>
+                    <span><i class='bx bx-search-alt-2'></i></span>
+                </div>
+                <div class="feature-image" style="background-image: url(images/product-6.jpg);"></div>
+                <div class="feature-text">
+                    <p>Product name goes here</p>
+                    <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                    <p>*****(99)</p>
+                </div>
+            </div>
+            <div class="feature-child">
+                <div class="options">
+                    <span><i class='bx bxs-cart-alt'></i></span>
+                    <span><i class='bx bx-heart'></i></span>
+                    <span><i class='bx bx-left-arrow-circle'></i></span>
+                    <span><i class='bx bx-search-alt-2'></i></span>
+                </div>
+                <div class="feature-image" style="background-image: url(images/product-7.jpg);"></div>
+                <div class="feature-text">
+                    <p>Product name goes here</p>
+                    <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                    <p>*****(99)</p>
+                </div>
+            </div>
+            <div class="feature-child">
+                <div class="options">
+                    <span><i class='bx bxs-cart-alt'></i></span>
+                    <span><i class='bx bx-heart'></i></span>
+                    <span><i class='bx bx-left-arrow-circle'></i></span>
+                    <span><i class='bx bx-search-alt-2'></i></span>
+                </div>
+                <div class="feature-image" style="background-image: url(images/product-8.jpg);"></div>
+                <div class="feature-text">
+                    <p>Product name goes here</p>
+                    <h3 style="margin-left: -40px;">$123.00 <span><del>$150.00</del></span></h3>
+                    <p>*****(99)</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Six box starts-->
+        <br><br><br>
+        <div class="six-box">
+            <div style="background-image: url(images/vendor-1.jpg);"></div>
+            <div style="background-image: url(images/vendor-2.jpg);"></div>
+            <div style="background-image: url(images/vendor-3.jpg);"></div>
+            <div style="background-image: url(images/vendor-4.jpg);"></div>
+            <div style="background-image: url(images/vendor-5.jpg);"></div>
+            <div style="background-image: url(images/vendor-6.jpg);"></div>
+        </div>
+        <br><br><br><br><br><br>
+        <div class="footer">
+            <div class="footer-child-1">
+                <h2>GET IN TOUCH</h2><br>
+                <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quis aliquam possimus doloremque,
+                    dolore dolorem nulla molestias, officiis tempore accusantium eos neque recusandae incidunt quisquam?
+                </h4><br>
+                <h4><i class='bx bx-current-location'></i> Bhawarkua Square, M.P., India</h4><br>
+                <h4><i class='bx bxs-envelope'></i> info@example.com</h4><br>
+                <h4><i class='bx bxs-phone-call'></i> +9123456789</h4>
+
+            </div>
+            <div class="footer-child-2">
+                <h2>QUICK SHOP</h2><br>
+                <h4>&#62 Home</h4>
+                <h4>&#62 Our Shop</h4>
+                <h4>&#62 Shop Detail</h4>
+                <h4>&#62 Shopping Cart</h4>
+                <h4>&#62 Checkout</h4>
+                <h4>&#62 Contact Us</h4>
+            </div>
+            <div class="footer-child-2">
+                <h2>MY ACCOUNT</h2><br>
+                <h4>&#62 Home</h4>
+                <h4>&#62 Our Shop</h4>
+                <h4>&#62 Shop Detail</h4>
+                <h4>&#62 Shopping Cart</h4>
+                <h4>&#62 Checkout</h4>
+                <h4>&#62 Contact Us</h4>
+            </div>
+            <div class="footer-child-3">
+                <h2>NEWS LETTER</h2><br>
+                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, amet.</h4>
+                <input type="search" placeholder="Enter Your Email" /><span>Sign Up</span>
+                <h4>FOLLOW US</h4>
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-linkedin'></i>
+                <i class='bx bxl-instagram'></i>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3><i class='bx bx-copyright'></i> Domain. All Rights Reserved. Designed by SHIVAM</h3>
+        <button><a href="#home"><i class='bx bx-chevrons-up'></i></a></button>
+    </footer>
+</body>
+
+</html>
